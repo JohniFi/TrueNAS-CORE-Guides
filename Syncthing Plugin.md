@@ -13,7 +13,7 @@
 	- **Disable Password**: *yes*
 	- **Samba Authentication**: ☑ -> ☐
 ## 3. Add a Dataset and set permissions
-1. TrueNAS -> Storage - Pools
+1. **TrueNAS** -> **Storage** - **Pools**
 2. Add a Dataset for Syncthing Data (e.g. tank/syncthing_data)
 3. **⋮** -> **Edit Permissions**
 4. **User**: *syncthing*
@@ -25,7 +25,7 @@
 	- e.g. */mnt/tank/syncthing* -> */mnt/tank/iocage/jails/syncthing/root/mnt/data*
 ## 5. Enable ssl
 1. **TrueNAS** -> **Plugins** -> *Syncthing* -> **MANAGE**
-2. Syncthing GUI -> Actions -> Settings -> GUI
+2. Syncthing GUI -> **Actions** -> **Settings** -> **GUI**
 	- **GUI Listen Address**: *0.0.0.0:8384* (this will bypass nginx)
 	- **GUI Authentication User**: *some_username*
 	- **GUI Authentication Password**: *secret_password*
